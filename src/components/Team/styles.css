@@ -1,0 +1,42 @@
+.title {
+    padding-bottom: 60px;
+}
+
+.title h2 {
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 38px;
+    color: #fff;
+}
+
+.title h2 span {
+    color: #57cbcc;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.border {
+    border-top: 2px solid rgba(236, 239, 241, 0.07);
+    height: 1px;
+    margin: 15px auto 0;
+    position: relative;
+    width: 30%;
+}
+
+.border:before {
+    background-color: #fff;
+    content: '';
+    height: 6px;
+    left: 50%;
+    margin-left: -20px;
+    position: absolute;
+    top: -4px;
+    width: 50px;
+    background-color: #57cbcc;
+}
+
+.section {
+    padding: 100px 0;
+}

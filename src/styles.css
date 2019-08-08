@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css?family=Anaheim|Quattrocento+Sans:400,700");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:300,400,600");
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    font-family: "Quattrocento Sans", sans-serif;
+    color: #afbac4;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #353b43;
+    font-family: "Anaheim", sans-serif;
+    color: #737f8a;
+    -webkit-font-smoothing: antialiased;
+}
+
+p {
+    font-family: "Quattrocento Sans", sans-serif;
+}
+
+/*=== Custom Scrollbar ===*/
+::-webkit-scrollbar {
+    width: 8px;
+    background: rgba(228, 228, 228, 0.8);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(73, 73, 73, 0.8);
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 2px;
+}
