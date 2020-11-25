@@ -5,12 +5,14 @@ import About from './components/About';
 import Team from './components/Team';
 import FooterBottom from './components/Footer';
 import Value from './components/Value';
+import Mission from './components/Mission';
 
 function App() {
   return (
     <div className="App">
       <Header />
       <About />
+      <Mission/>
       <Value />
       <Team />
       <FooterBottom />
