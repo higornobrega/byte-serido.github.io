@@ -1,10 +1,7 @@
 .container-about {
-    padding: 100px 0;
+    padding: 60px 0 0px 0px;
 }
 
-.title-about {
-    padding-bottom: 20px;
-}
 
 .title-about h2 {
     font-weight: 700;
@@ -18,8 +15,7 @@
 }
 
 .border-about {
-    padding-top: 20px;
-    padding-bottom: 10px;
+    padding-top: 30px;
     text-align: justify;
     border-top: 2px solid rgba(236, 239, 241, 0.07);
     margin: 15px auto 0;

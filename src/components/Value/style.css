@@ -1,32 +1,26 @@
-
-.container {
-    padding: 100px 0;
-}
-
 .title-value {
-    padding-bottom: 30px;
+    padding-bottom: 60px;
 }
 
 .title-value h2 {
     font-weight: 700;
     font-size: 38px;
     color: #fff;
-    text-align: center;
 }
 
 .title-value h2 span {
     color: #57cbcc;
 }
 
+.text-center-value {
+    text-align: center;
+}
+
 .border-value {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-align: justify;
     border-top: 2px solid rgba(236, 239, 241, 0.07);
     margin: 15px auto 0;
     position: relative;
-    width: 72%;
-    font-size: 30px;
+    width: 30%;
 }
 
 .border-value:before {
@@ -39,4 +33,84 @@
     top: -4px;
     width: 50px;
     background-color: #57cbcc;
+}
+
+.section-value {
+    padding: 100px 0 0 0;
+}
+
+.team-member-value {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.team-member-value ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+.team-member-value ul li {
+    display: flex;
+    flex-direction: column;
+}
+
+.team-member-value ul li img {
+    max-width: 100%;
+    border-radius:  5px 5px 0 0;
+}
+
+.team-member-value ul li footer {
+    flex: 1;
+    background: #292F36;
+    padding: 15px 20px;
+    text-align: left;
+    border-radius: 0 0 5px 5px;
+}
+
+.team-member-value ul li footer strong {
+    font-size: 16px;
+    color: #333;
+}
+
+.team-member-value ul li footer p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #999;
+    margin-top: 5px;
+}
+
+.team-member-value ul li .buttons {
+    margin-top: 10px;
+    display: grid;
+    grid-template: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.team-member-value ul li .buttons button {
+    height: 50px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.05);
+    border: 0;
+    border-radius: 4px;
+    background: #FFF;
+    cursor: pointer;
+}
+
+.team-member-value ul li .buttons button:hover img {
+    transform:  translateY(-5px);
+    transition: all 0.2s;
+}
+
+.team-member-value .empty {
+    font-size: 32px;
+    color: #999;
+    font-weight: bold;
+    margin-top: 300px;
+}
+
+.team-member-value span {
+    font-size: 13px;
 }
